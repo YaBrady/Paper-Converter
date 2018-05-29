@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    url: jdbc:mysql:///test
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: kealina
+  mvc:
+    view:
+      suffix: .html
+#      prefix: /views/
+
+  resources:
+    static-locations: classpath:/static/,classpath:/views/
+
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml

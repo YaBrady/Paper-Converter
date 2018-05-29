@@ -1,5 +1,5 @@
 ## 1系统结构图
-![](system.svg "system.svg")
+![](system.svg "系统架构图/system.svg")
 
 ### 1.1流程
 1. 填补好结构图
